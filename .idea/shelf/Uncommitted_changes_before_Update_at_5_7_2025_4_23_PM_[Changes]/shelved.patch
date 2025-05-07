@@ -1,0 +1,33 @@
+Index: src/main/java/org/example/Person.java
+===================================================================
+diff --git a/src/main/java/org/example/Person.java b/src/main/java/org/example/Person.java
+deleted file mode 100644
+--- a/src/main/java/org/example/Person.java	(revision 696393456700cf603981ae00cda70c780f65bc0b)
++++ /dev/null	(revision 696393456700cf603981ae00cda70c780f65bc0b)
+@@ -1,26 +0,0 @@
+-package org.example;
+-
+-public class Person {
+-    String firstName, lastName;
+-
+-    public Person(String firstName, String lastName) {
+-        this.firstName = firstName;
+-        this.lastName = lastName;
+-    }
+-
+-    public String getFirstName() {
+-        return firstName;
+-    }
+-
+-    public void setFirstName(String firstName) {
+-        this.firstName = firstName;
+-    }
+-
+-    public String getLastName() {
+-        return lastName;
+-    }
+-
+-    public void setLastName(String lastName) {
+-        this.lastName = lastName;
+-    }
+-}
