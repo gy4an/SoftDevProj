@@ -1,17 +1,26 @@
 package org.example;
 
-public class person {
-    String fn, ln;
-    public person(String fn, String ln){
-        this.fn = fn;
-        this.ln = ln;
+public class Person {
+    String firstName, lastName;
+
+    public Person(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 
-    public String getfn(){
-        return fn;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public String getln(){
-        return ln;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }
