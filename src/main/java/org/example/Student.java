@@ -1,18 +1,28 @@
 package org.example;
 
-public class Student {
-    public String name;
+public class Student
+{
+    String firstName, lastName;
 
-
-    public String getName() {
-        return name;
+    public Student
+            (String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public Student(String name) {
-        this.name = name;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }
